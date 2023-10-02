@@ -1,0 +1,142 @@
+
+/*pc >= 1024px
+
+@media (min-width: 1024px ;) {
+    .pc {
+        display:none;
+    }
+
+}
+
+740px <= tablet < 1024
+
+@media (max-width: 740px ;) and (min-width: 1023px ;) {
+    .tablet {
+        display:none;
+    }
+
+}
+mobile < 740px
+
+@media (max-width: 739px ;) {
+    .pc {
+        display:none;
+    }
+}
+
+*/
+
+/* TABLET AND MOBLIE */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px ;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height:2 ;
+    }
+
+    .contact-submit-btn {
+        font-size: 17px;
+    }
+
+
+    #footer .social-list  {
+        font-size: 48px;
+        
+        
+    }
+
+    #footer .social-list a {
+        margin: 0 8px;
+        
+    }
+
+    #footer .copyright  a {
+        padding: 12px 0;
+        display: inline-block;
+
+    }
+
+}
+
+/* TABLET */
+@media (max-width:46.25em ) and (min-width: 63.9375em ) {
+
+}
+
+/* MOBILE */
+@media (max-width:46.1875em ) {
+    .s-full-width {
+        width: 100% !important ;
+        /* tạo chiều rộng cho nút bấm khi trên mobile */
+
+    }
+
+    .s-col-full {
+        width: 100% !important;
+         /* tạo chiều rộng cho thành phần cột khi trên mobile */
+
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+ 
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+        /* lấy thẻ trực tiếp li từ nav với đk thẻ con đầu tiên li */
+    }
+
+    #nav .subnav {
+       position: initial;
+        /* giá trị mặc định position: alsolute */
+        background-color: #333;
+
+    }
+    
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    /* #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    } */
+
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+}
+
